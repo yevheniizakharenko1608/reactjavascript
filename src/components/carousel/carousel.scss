@@ -1,0 +1,50 @@
+.carousel {
+  width: 740px;
+  height: 370px;
+  overflow: hidden;
+}
+  .carousel__slide_n_0 {
+    background: url("img/slide-0.png") no-repeat;
+    height: 370px;
+    width: 740px;
+    display: inline-block;
+  }
+  .carousel__slide_n_1 {
+    background: url("img/slide-1.png") no-repeat;
+    height: 370px;
+    width: 740px;
+    display: inline-block;
+  }
+  .carousel__slide_n_2 {
+    background: url("img/slide-2.png") no-repeat;
+    height: 370px;
+    width: 740px;
+    display: inline-block;
+  }
+  .carousel__dots {
+    position: absolute;
+    left: 200px;
+    bottom: 30px;
+  }
+  .carousel__dots > li {
+    display: inline-block;
+    margin: 0 15px 0 0;
+  }
+  .carousel__dots > li > button {
+    background: #ffc79a;
+    width: 10px;
+    height: 10px;
+    color: transparent;
+    border-radius: 5px;
+    border: 1px solid rgba(85, 33, 15, .3);
+  }
+  .carousel__dots > li.slick-active > button {
+    background: #ff8726;
+  }
+
+
+
+
+.slick-prev, .slick-next {
+  display: none;
+}
